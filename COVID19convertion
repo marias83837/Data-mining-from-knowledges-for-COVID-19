@@ -1,0 +1,10 @@
+WITH  "COVID19.owl"
+CALL n10s.rdf.import.fetch(dataFormatsUri, 'Turtle' , { headerParams: { Accept: "application/x-turtle" } })
+YIELD terminationStatus, triplesLoaded, triplesParsed, namespaces, callParams
+RETURN terminationStatus, triplesLoaded, triplesParsed, namespaces, callParams;
+CALL apoc.meta.stats()
+YIELD labels, relTypes, relTypesCount
+RETURN labels, relTypes, relTypesCount;
+MATCH path = (c:Category {name: "version control system"})<-[:SUB_CAT_OF*]-(child)
+RETURN path
+LIMIT 25;

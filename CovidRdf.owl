@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Age -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Age">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-BMI -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-BMI">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Basic_reproduction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Basic_reproduction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Cardio-cerebrovascular -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Cardio-cerebrovascular">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-ContactWithPeople -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-ContactWithPeople">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Exposure/TravelHistory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Description -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Description">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-DigestiveSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-DigestiveSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-EndocrineDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-EndocrineDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Factor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Factor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Height -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Height">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-MalignantTumor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-MalignantTumor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-NeuralSystems -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-NeuralSystems">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Peer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Peer">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-RespiratorySystemDiseases -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-RespiratorySystemDiseases">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-RunnyNose -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-RunnyNose">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Sex -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Sex">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Solution -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Solution">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-StayInAreasWithCommunitySpread -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-StayInAreasWithCommunitySpread">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Exposure/TravelHistory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Symptoms -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Symptoms">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Weight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Weight">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Epidemiological_features"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Comobidity/Diseases">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Exposure/TravelHistory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Exposure/TravelHistory">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-ATTRIBUTE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-IFactor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-IFactor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Numerical_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has-Numerical_value"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has_Instance_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has_Instance_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has_String_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Has_String_value"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#AccuteRespiratoryDistressSyndrome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#AccuteRespiratoryDistressSyndrome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Anosmia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Anosmia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#BMI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#BMI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Basic_reproduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Basic_reproduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-Description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-Description">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-COMPONENT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-INDEX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-INDEX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBRCASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-Solution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-Solution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-COMPONENT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBRCASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBRCASE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Cardio-cerebrovascular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Cardio-cerebrovascular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#ChestPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#ChestPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Confusion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Confusion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#ContactWithPeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#ContactWithPeople">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Exposure/TravelHistory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Cough -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Cough">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DISEASE-CASE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DISEASE-CASE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBRCASE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Diarrhea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Diarrhea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DifficultyBreathing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DifficultyBreathing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DigestiveSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DigestiveSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DiscolourationOfFingers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DiscolourationOfFingers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DiscolourationOfToes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#DiscolourationOfToes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Dyspnea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Dyspnea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#EndocrineDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#EndocrineDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Fever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Fever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-COMPONENT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#HAS-COMPONENT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Headache -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Headache">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Height -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Height">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfMobility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfMobility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfSmell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfSmell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfSpeech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfSpeech">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfTaste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#LossOfTaste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#MalignantTumor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#MalignantTumor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#NeuralSystems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#NeuralSystems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#OrganFailure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#OrganFailure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Pneumonia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Pneumonia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RashOnSkin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RashOnSkin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RedOrIrritatedEyes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RedOrIrritatedEyes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RespiratorySystemDiseases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RespiratorySystemDiseases">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RunnyNose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#RunnyNose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Sex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Sex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#ShortnessOfBreath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#ShortnessOfBreath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#SoreThroat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#SoreThroat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#StayInAreasWithCommunitySpread -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#StayInAreasWithCommunitySpread">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Exposure/TravelHistory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Tiredness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Tiredness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Symptoms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Epidemiological_features"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Comobidity/Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-INDEX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Exposure/TravelHistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#Exposure/TravelHistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mevti/ontologies/2022/10/untitled-ontology-2#CBR-INDEX"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
